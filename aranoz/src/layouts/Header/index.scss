@@ -3,7 +3,7 @@ header{
     align-items: center;
     justify-content: center;
 .container{
-    max-width: 1200px;
+    max-width: 1400px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,10 +16,12 @@ header{
             display: flex;
             gap: 2rem;
         }
-    li{
-        list-style-type: none;
         a{
+            color: black;
             text-decoration: none;
+            li{
+                list-style-type: none;
+            }
         }
     }
     }
@@ -31,5 +33,4 @@ header{
             gap: 1rem;
         }
     }
-}
 }
