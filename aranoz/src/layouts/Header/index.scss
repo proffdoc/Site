@@ -1,0 +1,30 @@
+div{
+    background-color: #ECFDFF;
+.container{
+    margin: 0 5%;
+    padding: 0;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ECFDFF;
+    #header-left{
+        padding: 16px 0px
+    }
+     #header-middle{
+        ul{
+            display: flex;
+            gap: 2rem;
+        }
+    li{
+        list-style-type: none;
+        a{
+            text-decoration: none;
+        }
+    }
+    }
+    #header-right{
+        font-size: 1.5rem;
+        padding: 16px 0px;
+    }
+}
+}
