@@ -1,11 +1,14 @@
-div{
+header{
     background-color: #ECFDFF;
+    align-items: center;
+    justify-content: center;
 .container{
     margin: 0 5%;
     padding: 0;
-    max-width: 1200px;
+    max-width: 960px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #ECFDFF;
     #header-left{
         padding: 16px 0px
@@ -25,6 +28,10 @@ div{
     #header-right{
         font-size: 1.5rem;
         padding: 16px 0px;
+        div{
+            display: flex;
+            gap: 1rem;
+        }
     }
 }
 }

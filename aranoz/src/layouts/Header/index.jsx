@@ -6,7 +6,7 @@ import { CiHeart } from "react-icons/ci";
 import { LuShoppingCart } from "react-icons/lu";
 const Header = () => {
   return (
-    <div>
+    <header>
         <div className="container">
             <div id="header-left">
               <img src="https://preview.colorlib.com/theme/aranoz/img/logo.png.webp" alt="aranoz." />
@@ -22,13 +22,19 @@ const Header = () => {
             </div>
             <div id="header-right">
               <div className="icons">
+                <div>
               <IoIosSearch />
+              </div>
+              <div>
               <CiHeart />
+              </div>
+              <div>
               <LuShoppingCart />
+              </div>
               </div>
             </div>
         </div>
-    </div>
+    </header>
   )
 }
 
